@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "outDir": "./built",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@routers/*": ["src/routers/*"],
+      "@models/*": ["src/models/*"],
+      "@constants/*": ["src/constants/*"],
+      "@configs/*": ["src/configs/*"],
+      "@middlewares/*": ["src/middlewares/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
